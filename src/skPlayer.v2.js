@@ -1,5 +1,5 @@
 ;
-(function(window) {
+(function(win) {
     var skPlayer = function() {
         //初始化
         var playerTpl = ['<audio src="{{src}}" preload="auto"></audio>',
@@ -311,7 +311,7 @@
         }
         return init;
     }();
-    window.skPlayer = skPlayer;
+    win.skPlayer = skPlayer;
 })(window);
 //处理模块化
 if(typeof module !== 'undefined' && typeof module.exports !== 'undefined'){
