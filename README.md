@@ -20,7 +20,7 @@ red主题预览：
 
 方式2：引入文件  
 
-引入css文件： 
+引入css文件：
 ```html
 <link rel="stylesheet" href="./dist/skPlayer.min.css">
 ```
@@ -80,6 +80,11 @@ skPlayer({
 # TODO
 * 滚动歌词
 * 兼容移动端
+
+#更新日志
+* 代码重构
+* 去掉那个开始暂停的过渡动画 
+
 
 # 最后
 UI参考：[dribbble](https://dribbble.com/shots/1233843-Ui-Kit-Rainy-Season)

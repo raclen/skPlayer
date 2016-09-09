@@ -64,7 +64,7 @@
     border-left:24px solid #f0e9dc;
     border-top:14px solid transparent;
     border-bottom:14px solid transparent;
-    transition:.37s;
+    /*transition:.37s;*/
     position:absolute;
     left:21px;
     top:16px;
@@ -89,7 +89,7 @@
     border:14px solid #f0e9dc;
     border-left:2px solid #f0e9dc;
     border-right:2px solid #f0e9dc;
-    transition:.37s;
+    /*transition:.37s;*/
     position:absolute;
     right:21px;
     top:-76px;
@@ -305,6 +305,7 @@
     list-style: none;
     max-height: 171px;
     overflow-y: auto;
+    z-index: 2
 }
 #skPlayer.skPlayer-list-on .skPlayer-list{
     display:block;

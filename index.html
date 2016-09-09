@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>skPlayer Demo</title>
     <meta name="viewport" content="width=device-width,user-scalable=no">
-    <link rel="stylesheet" href="./dist/skPlayer.min.css">
+    <!-- <link rel="stylesheet" href="./dist/skPlayer.min.css"> -->
+        <link rel="stylesheet" href="./src/skPlayer.css">
     <style>
         *{
             margin:0;
@@ -21,14 +22,16 @@
 <body>
     <div id="skPlayer">
     </div>
-    <script src="./dist/skPlayer.min.js"></script>
+    <!-- <script src="./src/skPlayer.js"></script> -->
+    <script src="./src/skPlayer.v2.js"></script>
     <script>
-        window.onload = function(){
-            skPlayer({
-                music:317921676,
-                theme:'red'
-            });
-        };
+    /* init */
+    new skPlayer({
+        id: '#skPlayer',
+        musicList: [],
+        autoLoop: true,
+        songNumber: 317921676
+    });
     </script>
 </body>
 </html>
